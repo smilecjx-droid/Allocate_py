@@ -1,0 +1,5 @@
+# Ignore all __pycache__ directories
+**/__pycache__/*.h5ad
+Data/
+*.h5
+*.hdf5
