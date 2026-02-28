@@ -334,6 +334,6 @@ def adaptive_ot_with_KL(
         if iter_idx > 0 and abs(stats[-1]["total_loss"] - stats[-2]["total_loss"]) < tol:
             break
 
-        print(f"外层迭代 {iter_idx + 1}/{max_iters}")
+        print(f"Outer layer {iter_idx + 1}/{max_iters}")
 
     return a, pi, stats, a_history, pi_history
