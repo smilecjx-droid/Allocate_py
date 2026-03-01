@@ -1,3 +1,4 @@
+python==3.13.1
 anndata==0.12.10
 matplotlib==3.10.8
 numpy==2.4.2
