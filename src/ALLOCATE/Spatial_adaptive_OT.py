@@ -228,6 +228,6 @@ def fused_gw_adaptive_ot(C, D, D_prime, alpha, epsilon, lambda_val, beta, max_ou
         if outer_iter > 0 and abs(prev_total_loss - total_loss) < tol:
             break
         prev_total_loss = total_loss
-        print(f"Outer layer {outer_iter+1}/{max_outer}")
+        print(f"Outer iteration {outer_iter+1}/{max_outer}")
     
     return a, pi, stats, a_history
