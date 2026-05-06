@@ -5,13 +5,13 @@
 
 ALLOCATE advances optimal transport by explicitly modeling key characteristics of temporally evolving cellular systems, improving the corresponding assignment probabilities. It also provides interpretability for the potential of cellular growth and death, enabling a quantitative description of developmental and disease dynamics.
 
-The main inputs are:
+# The main inputs are:
 
 - molecular profiles of cells or spots at two consecutive time points;
 - optional spatial coordinates for spatially resolved data;
 - user-defined parameters controlling the transport optimization.
 
-The main outputs are:
+# The main outputs are:
 
 - an optimal transport matrix between source and target cells;
 - an adaptively inferred source marginal;
@@ -25,7 +25,7 @@ This repository currently provides research code rather than a fully packaged Py
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ALLOCATE.git
+git clone https://github.com/smilecjx-droid/Allocate_py.git
 cd ALLOCATE
 ```
 
